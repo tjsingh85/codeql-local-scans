@@ -6,7 +6,7 @@ This repo helps you install codeql cli, clone codeql repo and runs scans locally
 sh install-codeql-cli.sh
 ```
 
-* It will download and unzip code ql cli , create codeql specific folder and clone the codeql repo.
+* It downloads, unzip code ql cli , create codeql specific folder and clone the codeql repo.
 
 * To use codeql command from any location on the terminal, add codeql folder to /etc/paths
 
