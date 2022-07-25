@@ -8,7 +8,11 @@ sh install-codeql-cli.sh
 
 * It downloads, unzip code ql cli , create codeql specific folder and clone the codeql repo.
 
-* To use codeql command from any location on the terminal, add codeql folder to /etc/paths
+* To use codeql command from any location on the terminal,
+
+``` 
+add codeql folder to /etc/paths
+```
 
 * Check if Codeql is installed successfully, using
 ``` 
@@ -27,5 +31,12 @@ codeql database create <database-name> --language=<language-identifier>
 ```
 codeql database analyze <database-name> --format=sarif-latest --output=<output-file-name> <codeql-query-path>
 ```
+
+* Sarif file will be generated in the current folder. If you have sarif viewer already installed , you can upload this file in your VS code and view the results.
+
+## Useful Links:
+* [Code QL Public Repo](https://github.com/github/codeql)
+* [Code QL Docs](https://codeql.github.com/docs/)
+* [Sarif Viewer Vscode plugin](https://marketplace.visualstudio.com/items?itemName=MS-SarifVSCode.sarif-viewer)
 
 
